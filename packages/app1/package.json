@@ -1,20 +1,21 @@
 {
-  "name": "hello-next",
+  "name": "app1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next -p 5003",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "lerna": "^3.13.1"
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "next-transpile-modules": "^2.2.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "shared": "file:../shared"
   }
 }
