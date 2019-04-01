@@ -1,7 +1,9 @@
 //import Layout from '../components/Layout.js';
 import React from 'react';
 
-import {Layout, Button} from 'shared';
+import {Layout, Button, ButtonFlow} from 'shared';
+//import ButtonFlow from 'shared/ButtonFlow';
+
 
 const Index = (props) => (
   <Layout>
@@ -9,6 +11,14 @@ const Index = (props) => (
 
      This is Button is from shared component.
      <Button />
+
+
+      <ButtonFlow
+          primary
+          className="flow-button"
+        >
+          Button Flow Typed
+        </ButtonFlow>
   </Layout>
 )
 
