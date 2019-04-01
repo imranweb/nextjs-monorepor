@@ -12,12 +12,5 @@ const withTM = require('next-transpile-modules');
 // };
 
 module.exports = withTM({
-  transpileModules: ['shared'],
-  webpack(config, options) {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      'shared': require.resolve('shared'),
-    };
-    return config;
-  },
+  transpileModules: ['shared']
 });

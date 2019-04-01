@@ -42,7 +42,6 @@ const ButtonFlow = ({
     aria-label={ariaLabel || null}
     tabIndex={tabIndex || null}
   >
-  
     {children}
   </button>
 );
